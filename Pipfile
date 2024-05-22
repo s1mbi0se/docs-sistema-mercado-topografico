@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 mkdocs = "*"
+pymdown-extensions = "*"
+mkdocs-material = "*"
+mkdocs-encryptcontent-plugin = "*"
 
 [dev-packages]
 
