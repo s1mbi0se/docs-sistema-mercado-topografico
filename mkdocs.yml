@@ -20,6 +20,7 @@ theme:
 
 plugins:
   - encryptcontent:
+      title_prefix: '🔒 '
       global_password: !ENV [PASSWORD, '1234']
 
 markdown_extensions:
@@ -50,3 +51,4 @@ extra_javascript:
 nav:
   - Home: 'index.md'
   - Start: 'start.md'
+  - Infra: 'infra.md'

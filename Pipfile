@@ -8,6 +8,7 @@ mkdocs = "*"
 pymdown-extensions = "*"
 mkdocs-material = "*"
 mkdocs-encryptcontent-plugin = "*"
+jinja2 = "*"
 
 [dev-packages]
 
