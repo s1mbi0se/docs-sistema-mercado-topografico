@@ -6,6 +6,10 @@ on:
       - main
 permissions:
   contents: write
+
+env:
+  PASSWORD: ${{ secrets.PASSWORD }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
