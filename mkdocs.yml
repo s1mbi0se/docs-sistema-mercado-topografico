@@ -51,4 +51,5 @@ extra_javascript:
 nav:
   - Home: 'index.md'
   - Start: 'start.md'
-  - Infra: 'infra.md'
+  - Infra:
+    - Telemetria: 'infra/telemetry.md'
