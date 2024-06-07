@@ -1,19 +1,19 @@
 site_name: ""
 theme:
   name: 'material'
-  logo: 'https://s3-alpha-sig.figma.com/img/cb37/e08e/8fbacc34729235b644e0241cf58d364b?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q5MMktmQwkO5sNCaooHKQGZUf9IdR5usYxWJU5lv67xUrSQ0kxcaJwbI9uMv8BnI2p3xwCrsbcjqUNgknzsEWFPZBobN374yXSSKh5zpGflmGbYLk86-a7eHJUP~kMFziBiAOsY3etFJ0XhAFK24N0ps8~Gn6PXrrYjLIoIjHJkJ4wifrcsW8l2kTBeHi4GlIcuaF80dyjzbSo1POnkax4B4TfE5qRJ5ZBarb4NWXcXHlH2mUYQ8oAwr727WJy~oma6dkVokyHy5xhJ4mb~xEOS7Avct~BV6MET70SrJV7W5lGSJBQ7ZEwc2YcAnVw~1-EWD0CO6CkBRbPLaUrSp5g__'
-  favicon: 'https://s3-alpha-sig.figma.com/img/cb37/e08e/8fbacc34729235b644e0241cf58d364b?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q5MMktmQwkO5sNCaooHKQGZUf9IdR5usYxWJU5lv67xUrSQ0kxcaJwbI9uMv8BnI2p3xwCrsbcjqUNgknzsEWFPZBobN374yXSSKh5zpGflmGbYLk86-a7eHJUP~kMFziBiAOsY3etFJ0XhAFK24N0ps8~Gn6PXrrYjLIoIjHJkJ4wifrcsW8l2kTBeHi4GlIcuaF80dyjzbSo1POnkax4B4TfE5qRJ5ZBarb4NWXcXHlH2mUYQ8oAwr727WJy~oma6dkVokyHy5xhJ4mb~xEOS7Avct~BV6MET70SrJV7W5lGSJBQ7ZEwc2YcAnVw~1-EWD0CO6CkBRbPLaUrSp5g__'
+  logo: './files/logo-dark.png'
+  favicon: './files/logo-dark-without-text.png'
   features:
     - content.code.copy
     - content.code.select
   palette:
     - scheme: default
-      primary: orange
+      primary: dark-blue
       toggle:
         icon: material/weather-night
         name: Dark Mode
     - scheme: slate
-      primary: white
+      primary: dark-blue
       toggle:
         icon: material/weather-sunny
         name: Light Mode
@@ -50,6 +50,12 @@ extra_javascript:
 
 nav:
   - Home: 'index.md'
-  - Start: 'start.md'
+  - Estudos: 'study/course.md'
   - Infra:
+    - Start: 'infra/start.md'
     - Telemetria: 'infra/telemetry.md'
+    - Banco de Dados: 'infra/database.md'
+    - Acesso Remoto: 'infra/remote.md'
+  - Utils:
+      - Pagamentos: 'utils/pagarme.md'
+      - Melhor Envio: 'utils/melhor-envio.md'
