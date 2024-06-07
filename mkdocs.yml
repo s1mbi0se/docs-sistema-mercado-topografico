@@ -21,7 +21,7 @@ theme:
 plugins:
   - encryptcontent:
       title_prefix: '🔒 '
-      global_password: !ENV [PASSWORD, '1234']
+      global_password: !ENV [PASSWORD, 'mercado']
 
 markdown_extensions:
   - pymdownx.tasklist  # Lista de tarefas
