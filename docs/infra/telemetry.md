@@ -20,4 +20,4 @@ URL: <a href="https://grafanateste.mercadotopografico.com.br" target="_blank">ht
 <br>
 User: `{{GRAFANA_USER}}`
 <br>
-Pass: `{{GRAFANA_USER}}`
+Pass: `{{GRAFANA_PASS}}`
