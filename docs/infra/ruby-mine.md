@@ -26,6 +26,6 @@ hide:
 1. Abra a IDE
 2. Abra o menu de Licenças indo em HELP -> REGISTER
 3. Faça o log in utilizando a conta da Jetbrains, mantendo a licença no modo 'JB Account'
-![Image title](/files/jetbrains-01.png){ width=900 }
+![Image title](../files/jetbrains-01.png){ width=900 }
 4. Confirme que tudo deu certo vendo se a licença está ativa
-![Image title](/files/jetbrains-02.png){ width=900 }
+![Image title](../files/jetbrains-02.png){ width=900 }
