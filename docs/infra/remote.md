@@ -5,15 +5,16 @@ hide:
 
 ## Precisa acessar nosso servidor? Vamos la!
 ---
-
-> :information_source: **Info**: O comando abaixo vai criar a chave pem, dar permissão, e criar atalhos para acesso aos ambientes.
+!!! info
+    O comando abaixo vai criar a chave pem, dar permissão, e criar atalhos para acesso aos ambientes.
 
 ```bash
 {{BASH_CREATE_PEM}}
 ```
 
 ## Acesso
-> :exclamation: **ATENÇÃO**: Mexer nos ambientes remotos requer cuidado, caso precise de ajuda, chame alguém mais experiente!.
+!!!danger "ATENÇÃO"
+    #### Mexer nos ambientes remotos requer cuidado, caso precise de ajuda, chame alguém mais experiente!
 
 Após rodar o comando acima, o acesso ao ambiente ficou tão fácil quanto beber água, basta chamar a função que deseja usar:
 

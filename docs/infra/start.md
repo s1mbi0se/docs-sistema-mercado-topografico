@@ -5,7 +5,8 @@ hide:
 
 # Caiu de paraquedas no projeto? Vamos as configurações!
 
-> :warning: **Atenção**: Antes de prosseguir, é necessário configurar a chave SSH. Certifique-se de que você já fez isso. Se não, faça este passo antes ou solicite a ajuda da equipe.
+!!! warning
+    #### Antes de prosseguir, é necessário configurar a chave SSH. Certifique-se de que você já fez isso. Se não, faça este passo antes ou solicite a ajuda da equipe.
 
 ### Atualização APT-GET
 
