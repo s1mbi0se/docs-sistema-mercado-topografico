@@ -66,6 +66,7 @@ nav:
     - Banco de Dados: 'infra/database.md'
     - Acesso Remoto: 'infra/remote.md'
     - Acesso AWS: 'infra/aws-access.md'
+    - RubyMine: 'infra/ruby-mine.md'
   - Utils:
       - Pagamentos: 'utils/pagarme.md'
       - Melhor Envio: 'utils/melhor-envio.md'

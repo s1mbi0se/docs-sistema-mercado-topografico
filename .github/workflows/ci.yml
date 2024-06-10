@@ -33,6 +33,8 @@ env:
   USERNAME_DEV: ${{ secrets.USERNAME_DEV }}
   USERNAME_PROD: ${{ secrets.USERNAME_PROD }}
   AWS_URL: ${{ secrets.AWS_URL }}
+  EMAIL_RUBYMINE: ${{ secrets.EMAIL_RUBYMINE }}
+  SENHA_RUBYMINE: ${{ secrets.SENHA_RUBYMINE }}
 
 jobs:
   deploy:
