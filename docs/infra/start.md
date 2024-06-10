@@ -10,19 +10,23 @@ hide:
 
 ### Atualização APT-GET
 
-```shell
-sudo apt-get update
-```
+=== "Debian"
+    ```shell
+    sudo apt-get update
+    ```
+=== "Arch"
+    ```shell
+    sudo pacman -Syu
+    ```
 
 ### Instalação de Pacotes Essenciais
 
-```shell
-sudo apt-get install -y git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmysqlclient-dev mysql-client-core-8.0 libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
-```
-
-!!! tip "Caso sua base seja ARCH"
+=== "Debian"
     ```shell
-    sudo pacman -Syu
+    sudo apt-get install -y git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmysqlclient-dev mysql-client-core-8.0 libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
+    ```
+=== "Arch"
+    ```shell
     sudo pacman -S git zlib base-devel openssl readline libyaml sqlite libxml2 libxslt curl libffi micro mariadb-libs gtk2 gtk3 mesa libnotify nss libxss alsa-lib libxtst xorg-xauth xorg-server-xvfb bzip2
     ```
 

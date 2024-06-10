@@ -6,6 +6,7 @@ theme:
   features:
     - content.code.copy
     - content.code.select
+    - content.tabs.link
   palette:
     - scheme: default
       primary: dark-blue
@@ -37,6 +38,12 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -58,6 +65,7 @@ nav:
     - Telemetria: 'infra/telemetry.md'
     - Banco de Dados: 'infra/database.md'
     - Acesso Remoto: 'infra/remote.md'
+    - Acesso AWS: 'infra/aws-access.md'
   - Utils:
       - Pagamentos: 'utils/pagarme.md'
       - Melhor Envio: 'utils/melhor-envio.md'

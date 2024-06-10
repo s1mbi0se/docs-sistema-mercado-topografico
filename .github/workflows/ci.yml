@@ -32,6 +32,7 @@ env:
   USERNAME_APP: ${{ secrets.USERNAME_APP }}
   USERNAME_DEV: ${{ secrets.USERNAME_DEV }}
   USERNAME_PROD: ${{ secrets.USERNAME_PROD }}
+  AWS_URL: ${{ secrets.AWS_URL }}
 
 jobs:
   deploy:
