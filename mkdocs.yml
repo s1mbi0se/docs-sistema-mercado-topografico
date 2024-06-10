@@ -24,6 +24,7 @@ plugins:
       global_password: !ENV [PASSWORD, 'mercado']
 
 markdown_extensions:
+  - admonition
   - pymdownx.tasklist  # Lista de tarefas
   - pymdownx.emoji  # Emojis
   - pymdownx.mark
@@ -35,6 +36,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -59,3 +61,4 @@ nav:
   - Utils:
       - Pagamentos: 'utils/pagarme.md'
       - Melhor Envio: 'utils/melhor-envio.md'
+      - Ruby on Rails: 'utils/commands.md'
