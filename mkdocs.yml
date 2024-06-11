@@ -71,3 +71,13 @@ nav:
       - Pagamentos: 'utils/pagarme.md'
       - Melhor Envio: 'utils/melhor-envio.md'
       - Ruby on Rails: 'utils/commands.md'
+  - APP:
+      - Configuration Guide:
+          - 💻 Installing OpenJDK and Android Studio: 'app/configuration-guide/installing-openjdk-and-android-studio.md'
+          - ⬇️ Download repository: 'app/configuration-guide/downloading-the-repository.md'
+          - 📲 Expo - emulate app: 'app/configuration-guide/expo-emulate-your-app.md'
+          - 📢 Develop, Build and Visualize: 'app/configuration-guide/develop-build-and-visualize.md'
+      - Development:
+          - 🧪 Component Testing: 'app/development/component-testing.md'
+          - 🎯 Design Patterns: 'app/development/design-patterns.md'
+          - 🤖 Errors when running Android: 'app/development/errors-when-running-android.md'
