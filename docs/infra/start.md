@@ -38,7 +38,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
 echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
 echo 'legacy_version_file = yes' >> ~/.asdfrc
-exec $SHELL
+source ~/.bashrc
 ```
 
 ### Adicionando RUBY, NODE e PYTHON
