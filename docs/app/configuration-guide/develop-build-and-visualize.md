@@ -17,9 +17,8 @@ npx expo start --no-dev
 
 If you have made any modifications to the Rails backend, send it to the stage environment, following the step-by-step instructions in this documentation:
 
-{% hint style="info" %}
-Your development branch must be on Github
-{% endhint %}
+!!! info
+    Your development branch must be on Github
 
 {% embed url="https://docs.google.com/document/d/1SJv4iTv6kn44ACNgzLX-96WZQy8zKWAr-JR6evh-rDI/edit" %}
 DEPLOY ON DEVELOPMENT / PRODUCTION
@@ -67,4 +66,4 @@ Now that your app is on Expo, you can share the QRCode or access link to anyone 
 
 ![Image title](../../files/image (10).png)
 
-![Image title]('../../files/image (11).png')
+![Image title](../../files/image (11).png)

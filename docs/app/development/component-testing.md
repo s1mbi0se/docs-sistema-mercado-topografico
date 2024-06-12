@@ -51,9 +51,8 @@ describe("Department Carousel", () => {
 })
 ```
 
-{% hint style="danger" %}
-Run the component test every time you finish it. Don't wait to finish all the component tests to do this.
-{% endhint %}
+!!! danger
+    Run the component test every time you finish it. Don't wait to finish all the component tests to do this.
 
 ![Image title](../../files/image (34).png)
 

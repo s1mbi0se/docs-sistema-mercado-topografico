@@ -55,9 +55,7 @@ This command will download and install all the required packages and libraries n
 After running `npm install`, you'll be all set to start working with the `mercado-topografico-app` project. Make sure to check the project's documentation or README file for any additional steps or commands you might need to run to get the application up and running.
 
 
-
-{% hint style="info" %}
-In case of error, check Node and NPM configuration. See example screen below using WebStorm.
-{% endhint %}
+!!! info
+   In case of error, check Node and NPM configuration. See example screen below using WebStorm.
 
 ![Image title](../../files/image (22).png)
