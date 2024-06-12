@@ -1,7 +1,6 @@
 ---
-cover: >-
-  https://assets-global.website-files.com/619e15d781b21202de206fb5/62f62b00791f0a712a693a46_Core-Benefits-of-Automated-Testing-in-App-Development.webp
-coverY: 0
+hide:
+  - toc
 ---
 
 # 🧪 Component Testing
@@ -10,7 +9,9 @@ Following good programming practices, it is recommended to carry out a test for 
 
 In the project, we are using the React Native Testing Library. You can find more details on this page:
 
-{% embed url="https://github.com/callstack/react-native-testing-library" %}
+```embed
+url: https://github.com/callstack/react-native-testing-library
+```
 
 Inside the component directory, create a folder \_\_**tests\_\_** and add a file **index.test.tsx**&#x20;
 
@@ -66,7 +67,9 @@ After you finish all the testing of the component you created, run all the appli
 
 Codium is a great tool to help you create tests. Although it is not 100% accurate in some cases, it helps you gain more agility when setting up your component tests. You have to install the extension in your IDE:
 
-{% embed url="https://www.codium.ai/" %}
+```embed
+url: https://www.codium.ai/
+```
 
 #### Codium for WebStorm
 

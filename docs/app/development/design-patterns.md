@@ -22,13 +22,17 @@ The 'app' folder is where the page with the components should be mounted. The 'a
 
 There are also some **layout files**, you can check more in this documentation:
 
-{% embed url="https://docs.expo.dev/routing/layouts/" %}
+```embed
+url: https://docs.expo.dev/routing/layouts/
+```
 
 ### Commons
 
 The 'commons' folder has two subdirectories (for better organization) and both are responsible for managing the application context, taking information from one component to the other. Find out more in this article:
 
-{% embed url="https://react.dev/reference/react/createContext" %}
+```embed
+url: https://react.dev/reference/react/createContext
+```
 
 ![Image title](../../files/image (4).png)
 

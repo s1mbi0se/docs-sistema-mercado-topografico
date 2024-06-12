@@ -1,8 +1,6 @@
 ---
-description: A guide for installing OpenJDK and Android Studio on Ubuntu 22.04
-cover: >-
-  https://developer.android.com/static/images/social/android-developers.png?hl=pt-br
-coverY: 0
+hide:
+  - toc
 ---
 
 # 💻 Installing OpenJDK and Android Studio

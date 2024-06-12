@@ -1,6 +1,6 @@
 ---
-cover: https://faraitltd.com/wp-content/uploads/2023/02/Screenshot_7.jpg
-coverY: 0
+hide:
+  - toc
 ---
 
 # 📢 Develop, Build and Visualize
@@ -20,9 +20,12 @@ If you have made any modifications to the Rails backend, send it to the stage en
 !!! info
     Your development branch must be on Github
 
-{% embed url="https://docs.google.com/document/d/1SJv4iTv6kn44ACNgzLX-96WZQy8zKWAr-JR6evh-rDI/edit" %}
-DEPLOY ON DEVELOPMENT / PRODUCTION
-{% endembed %}
+```embed
+url: https://docs.google.com/document/d/1SJv4iTv6kn44ACNgzLX-96WZQy8zKWAr-JR6evh-rDI/edit
+name: DEPLOY ON DEVELOPMENT / PRODUCTION
+image: https://img.odcdn.com.br/wp-content/uploads/2023/05/Google-Docs.png
+desc: How deploy to the server
+```
 
 ### Pull Request
 

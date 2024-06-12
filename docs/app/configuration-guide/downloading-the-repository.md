@@ -1,6 +1,6 @@
 ---
-cover: https://files.tecnoblog.net/wp-content/uploads/2022/10/github-simbolo.jpg
-coverY: 0
+hide:
+   - toc
 ---
 
 # ⬇️ Downloading the repository

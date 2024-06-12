@@ -1,7 +1,6 @@
 ---
-description: EAS Update is the next generation of Expo's updates service.
-cover: https://webomnizz.com/wp-content/uploads/2020/01/expo-publish.jpg
-coverY: 0
+hide:
+  - toc
 ---
 
 # 📲 Expo: emulate your app
