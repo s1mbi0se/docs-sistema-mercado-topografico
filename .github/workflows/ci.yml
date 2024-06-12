@@ -58,6 +58,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pymdown-extensions
       - run: pip install mkdocs-encryptcontent-plugin
+      - run: pip install mkdocs-link-embeds-plugin
       - run: pip install jinja2
       - run: python environment.py
       - run: mkdocs gh-deploy --force

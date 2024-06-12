@@ -9,6 +9,7 @@ pymdown-extensions = "*"
 mkdocs-material = "*"
 mkdocs-encryptcontent-plugin = "*"
 jinja2 = "*"
+mkdocs-link-embeds-plugin = "*"
 
 [dev-packages]
 
