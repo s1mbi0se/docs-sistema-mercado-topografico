@@ -73,6 +73,7 @@ extra_javascript:
 nav:
   - Home: 'index.md'
   - Estudos: 'study/course.md'
+  - Design: 'design/links-design.md'
   - Infra:
     - Start: 'infra/start.md'
     - Telemetria: 'infra/telemetry.md'
