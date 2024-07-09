@@ -44,7 +44,7 @@ Path: [https://expo.dev/accounts/mercado-topografico/settings/members](https://e
 In your **project directory**, run the command:
 
 ```bash
-npx expo start
+npx expo start --tunnel
 ```
 
 After that press "**a**" to open Android Emulator:

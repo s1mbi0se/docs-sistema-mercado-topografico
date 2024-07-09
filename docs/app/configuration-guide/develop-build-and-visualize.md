@@ -35,6 +35,9 @@ Everything ok with the test, make a pull request to the **Develop branch** with 
 
 ### Building the App
 
+!!! danger
+    Only use this command when publishing the application in app stores such as Play Store and App Store.
+
 To build the app, run the following command:
 
 ```bash
