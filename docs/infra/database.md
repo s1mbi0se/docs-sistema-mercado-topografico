@@ -13,7 +13,7 @@ hide:
 > USERNAME: `{{USERNAME_PROD}}`<br>
 > PASSWORD: `{{DATABASE_PASSWORD_PROD}}`<br>
 
-## Homologação
+## Homologação (Testes)
 > HOST: `{{DATABASE_HOST}}`<br>
 > PORT: `{{DATABASE_PORT}}`<br>
 > DATABASE: `{{DATABASE_HOMO}}`<br>
