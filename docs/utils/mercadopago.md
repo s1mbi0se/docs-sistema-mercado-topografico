@@ -13,7 +13,8 @@
 
 
 
-### Status de pagamento
+### Status de pagamento 
+(Para testar diferentes resultados de pagamento, insira o status desejado no nome do titular do cartão:)
 
 | Status de pagamento  |  Descrição | Documento de identidade  |
 |---|---|---|
