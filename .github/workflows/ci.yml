@@ -37,7 +37,6 @@ env:
   AWS_URL: ${{ secrets.AWS_URL }}
   EMAIL_RUBYMINE: ${{ secrets.EMAIL_RUBYMINE }}
   SENHA_RUBYMINE: ${{ secrets.SENHA_RUBYMINE }}
-  CHAVE_SECRETA: ${{ secrets.CHAVE_SECRETA }}
 
 jobs:
   deploy:
