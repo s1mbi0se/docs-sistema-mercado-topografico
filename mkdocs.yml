@@ -96,3 +96,6 @@ nav:
           - 🧪 Component Testing: 'app/development/component-testing.md'
           - 🎯 Design Patterns: 'app/development/design-patterns.md'
           - 🤖 Errors when running Android: 'app/development/errors-when-running-android.md'
+  - EXEMPLO:
+      - SUBFOLDER:
+          - MINHA PAGINA DE EXEMPLO: 'exemplos/exemplo.md'
