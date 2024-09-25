@@ -33,3 +33,17 @@ hide:
 > DATABASE: `{{DATABASE_DEV}}`<br>
 > USERNAME: `{{USERNAME_DEV}}`<br>
 > PASSWORD: `{{DATABASE_PASSWORD_DEV}}`<br>
+
+## Whitelabel Chile
+> HOST: `{{DATABASE_HOST}}`<br>
+> PORT: `{{DATABASE_PORT}}`<br>
+> DATABASE: `{{DATABASE_CHILE}}`<br>
+> USERNAME: `{{USERNAME_CHILE}}`<br>
+> PASSWORD: `{{DATABASE_PASSWORD_CHILE}}`<br>
+
+## Whitelabel US
+> HOST: `{{DATABASE_HOST}}`<br>
+> PORT: `{{DATABASE_PORT}}`<br>
+> DATABASE: `{{DATABASE_US}}`<br>
+> USERNAME: `{{USERNAME_US}}`<br>
+> PASSWORD: `{{DATABASE_PASSWORD_US}}`<br>

@@ -47,6 +47,14 @@ cd /simbiose/script/shell
 ./update_repo.sh ruby-devtest feat/minha-branch
 ```
 
+!!! tip "Observação"
+    Se tiver dúvidas sobre qual parâmetro utilizar no deploy, execute o script com o comando abaixo e siga as instruções fornecidas.
+
+```bash
+# Rodando o Script
+./update_repo.sh
+```
+
 Pronto! Seu deploy já está acontecendo, acompanhe o script para observar o andamento!
 
 ## Entendendo o fluxo de branch

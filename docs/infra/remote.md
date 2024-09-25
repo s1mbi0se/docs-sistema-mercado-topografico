@@ -28,3 +28,9 @@ prod
 ```bash
 homo
 ```
+
+##
+> **Whitelabel  Chile / Whitelabel US**: Basta executar "chile" no terminal
+```bash
+chile
+```
