@@ -74,6 +74,13 @@ nav:
   - Home: 'index.md'
   - Estudos: 'study/course.md'
   - Design: 'design/links-design.md'
+  - Credentials:
+    - Google Cloud: 'credentials/cloud-google.md'
+    - Facebook: 'credentials/facebook.md'
+    - Melhor Envio: 'credentials/melhor-envio.md'
+    - OpenAI: 'credentials/open-ai.md'
+    - Pagamentos: 'credentials/pagarme.md'
+    - Sendgrid: 'credentials/sendgrid.md'
   - Infra:
     - Start: 'infra/start.md'
     - Telemetria: 'infra/telemetry.md'
@@ -83,9 +90,8 @@ nav:
     - Deploy & Fluxo de Branches: 'infra/deploy.md'
     - RubyMine: 'infra/ruby-mine.md'
   - Utils:
-      - Pagamentos: 'utils/pagarme.md'
-      - Melhor Envio: 'utils/melhor-envio.md'
       - Ruby on Rails: 'utils/commands.md'
+      - Mercado Pago (chile): 'utils/mercadopago.md'
   - APP:
       - Configuration Guide:
           - 💻 Installing OpenJDK and Android Studio: 'app/configuration-guide/installing-openjdk-and-android-studio.md'
