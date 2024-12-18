@@ -30,7 +30,13 @@ homo
 ```
 
 ##
-> **Whitelabel  Chile / Whitelabel US**: Basta executar "chile" no terminal
+> **Whitelabel  Chile / Whitelabel US**: Basta executar "wlprod" no terminal
 ```bash
-chile
+wlprod
+```
+
+##
+> **Whitelabel  Homologação**: Basta executar "wlhomo" no terminal
+```bash
+wlhomo
 ```
