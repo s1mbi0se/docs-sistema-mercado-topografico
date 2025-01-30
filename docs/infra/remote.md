@@ -6,7 +6,7 @@ hide:
 ## Precisa acessar nosso servidor? Vamos la!
 ---
 !!! info
-    O comando abaixo vai criar a chave pem, dar permissão, e criar atalhos para acesso aos ambientes.
+    O comando abaixo vai criar a chave pem, dar permissão, e criar atalhos para acesso aos ambientes. (Atualizado: 30/01/2025)
 
 ```bash
 {{BASH_CREATE_PEM}}
