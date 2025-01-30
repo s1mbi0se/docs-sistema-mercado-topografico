@@ -34,12 +34,19 @@ hide:
 > USERNAME: `{{USERNAME_DEV}}`<br>
 > PASSWORD: `{{DATABASE_PASSWORD_DEV}}`<br>
 
-## Whitelabel Chile
+## Whitelabel Chile Produção
 > HOST: `{{DATABASE_HOST}}`<br>
 > PORT: `{{DATABASE_PORT}}`<br>
 > DATABASE: `{{DATABASE_CHILE}}`<br>
 > USERNAME: `{{USERNAME_CHILE}}`<br>
 > PASSWORD: `{{DATABASE_PASSWORD_CHILE}}`<br>
+
+## Whitelabel Chile teste
+> HOST: `{{DATABASE_HOST}}`<br>
+> PORT: `{{DATABASE_PORT}}`<br>
+> DATABASE: `{{DATABASE_CHILE_HOMO}}`<br>
+> USERNAME: `{{USERNAME_CHILE_HOMO}}`<br>
+> PASSWORD: `{{DATABASE_PASSWORD_CHILE_HOMO}}`<br>
 
 ## Whitelabel US
 > HOST: `{{DATABASE_HOST}}`<br>
