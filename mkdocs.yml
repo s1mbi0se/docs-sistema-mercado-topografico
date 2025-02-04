@@ -91,6 +91,7 @@ nav:
     - RubyMine: 'infra/ruby-mine.md'
   - Utils:
       - Ruby on Rails: 'utils/commands.md'
+      - Criando uma Senha (hashed): 'utils/digest_password.md'
       - Mercado Pago (chile): 'utils/mercadopago.md'
   - APP:
       - Configuration Guide:
