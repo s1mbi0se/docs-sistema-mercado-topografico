@@ -85,6 +85,7 @@ nav:
     - Start: 'infra/start.md'
     - Telemetria: 'infra/telemetry.md'
     - Banco de Dados: 'infra/database.md'
+    - Backup do Banco de Dados: 'infra/backup-db.md'
     - Acesso Remoto: 'infra/remote.md'
     - Acesso AWS: 'infra/aws-access.md'
     - Deploy & Fluxo de Branches: 'infra/deploy.md'

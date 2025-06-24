@@ -10,6 +10,10 @@ hide:
 
 ### Atualização APT-GET
 
+=== "Ubuntu"
+    ```shell
+    sudo apt-get update
+    ```
 === "Debian"
     ```shell
     sudo apt-get update
@@ -21,9 +25,13 @@ hide:
 
 ### Instalação de Pacotes Essenciais
 
-=== "Debian"
+=== "Ubuntu"
     ```shell
     sudo apt-get install -y git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmysqlclient-dev mysql-client-core-8.0 libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
+    ```
+=== "Debian"
+    ```shell
+    sudo apt-get install -y git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmariadb-dev-compat libmariadb-dev mariadb-server mariadb-client-core libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
     ```
 === "Arch"
     ```shell
@@ -95,13 +103,28 @@ npm install -g npm@10.5.0
 npm install -g yarn
 ```
 
-### Instalação do Docker
+### Instalação do Docker [NO CASO DE WSL, USE O DOCKER DESKTOP NO WINDOWS]
 
-```shell
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-rm get-docker.sh
-```
+=== "Ubuntu"
+    ```shell
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh get-docker.sh
+    rm get-docker.sh
+    ```
+=== "WSL"
+
+    - Instalar Docker Desktop: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+
+    - Configure no Docker Desktop:
+
+    ```text
+    CONFIGS > GENERAL
+    [x] Use the WSL 2 based engine
+
+    CONFIGS > RESOURCES > WSL INTEGRATION
+    [x] Enable integration with my default WSL distro
+    [x] Enable integration with additional distros (selecione suas distros)
+    ```
 
 ### Adicionando o usuário ao grupo Docker
 
