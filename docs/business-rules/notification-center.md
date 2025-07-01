@@ -75,33 +75,32 @@ Cada ExpoNotificationBatchWorker recebe um lote específico e cria a instância 
 
 Um lote pode conter tokens que não estão mais válidos. O serviço irá identificar esses tokens, marcar como inativos no banco, e seguir com o restante normalmente.
 
-### ExpoPushToken (model)
+### **ExpoPushToken (model)**
 
 Por fim, o modelo **ExpoPushToken** representa o token de notificação associado a um usuário. Ele permite ativar, desativar e consultar o status dos tokens de forma performática. Também mantém o histórico de uso, com o campo `last_used_at`, que é atualizado a cada envio bem-sucedido.
 
-### Recapitulação: Ordem de Execução dos Métodos
+## 3. Sequência de Chamadas
 
 1. `Dispatcher.for_user(user, title, body, data)`
 
-    - Ponto de entrada inicial do fluxo. Recebe os parâmetros de notificação e filtra os tokens ativos do usuário. Caso existam tokens válidos, enfileira o `ExpoNotificationWorker`.
+   - Ponto de entrada inicial do fluxo. Recebe os parâmetros de notificação e filtra os tokens ativos do usuário. Caso existam tokens válidos, enfileira o `ExpoNotificationWorker`.
 
 2. `ExpoNotificationWorker.perform(tokens, title, body, data)`
 
-    - Gera um `notification_id` único e divide os tokens em lotes. Para cada lote, enfileira um `ExpoNotificationBatchWorker` com os dados do lote.
+   - Gera um `notification_id` único e divide os tokens em lotes. Para cada lote, enfileira um `ExpoNotificationBatchWorker` com os dados do lote.
 
 3. `ExpoNotificationBatchWorker.perform(batch_tokens, title, body, data)`
 
-    - Instancia o `ExpoNotificationService` e chama o método `call` para enviar as notificações.
+   - Instancia o `ExpoNotificationService` e chama o método `call` para enviar as notificações.
 
 4. `ExpoNotificationService.call`
 
-    - Realiza a comunicação com a API do Expo, aplicando retry exponencial e tratando respostas. Atualiza o estado dos tokens no banco.
+   - Realiza a comunicação com a API do Expo, aplicando retry exponencial e tratando respostas. Atualiza o estado dos tokens no banco.
 
 5. `ExpoPushToken`
 
-    - Modelo responsável por representar os tokens no banco de dados e manter seu estado (ativo/inativo) e histórico de uso.
+   - Modelo responsável por representar os tokens no banco de dados e manter seu estado (ativo/inativo) e histórico de uso.
 
-## 3. Sequência de Chamadas (Diagrama Simplificado)
 
 ```
 [API Trigger] 
@@ -123,7 +122,7 @@ A API disponibiliza dois endpoints principais para o registro de tokens de notif
 
 - **POST `/push_tokens/guest`**: utilizado quando o usuário ainda **não está autenticado**. Essa rota associa o token ao dispositivo de forma anônima (sem `user_id`).
 
-- **POST `/push_tokens/guest`**: rota protegida por autenticação. Deve ser usada quando o usuário **já está logado**. O token será vinculado ao `user_id` atual no banco de dados.
+- **POST `/push_tokens`**: rota protegida por autenticação. Deve ser usada quando o usuário **já está logado**. O token será vinculado ao `user_id` atual no banco de dados.
 
 Ambas as rotas utilizam `ExpoPushToken.find_or_initialize_by(token:)` para evitar duplicidade de registros, permitindo também que tokens existentes sejam atualizados com novos dados, como `last_used_at` ou `user_id`.
 
