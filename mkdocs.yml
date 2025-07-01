@@ -104,3 +104,6 @@ nav:
           - 🧪 Component Testing: 'app/development/component-testing.md'
           - 🎯 Design Patterns: 'app/development/design-patterns.md'
           - 🤖 Errors when running Android: 'app/development/errors-when-running-android.md'
+  - Regras de Negócio:
+      - Central de Notificações: 'business-rules/notification-center.md'
+
