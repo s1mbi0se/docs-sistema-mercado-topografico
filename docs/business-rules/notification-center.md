@@ -25,7 +25,7 @@ O fluxo de envio de notificações push começa com um **trigger** **(gatilho)**
 ```ruby
 post '/login' do
   # Após autenticação bem-sucedida
-  ::Utils::ExpoNotification::Dispatcher.for_user(
+  ::Utils::Notification::Dispatcher.for_user(
     user,
     'Login realizado com sucesso',
     "Olá, #{user.name}, seu login foi efetuado com êxito!",
