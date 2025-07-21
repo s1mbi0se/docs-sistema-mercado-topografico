@@ -31,7 +31,7 @@ hide:
     ```
 === "Debian"
     ```shell
-    sudo apt-get install -y git-core zlib1g-dev build-essential NetworkManager libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmariadb-dev-compat libmariadb-dev mariadb-server mariadb-client-core libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
+    sudo apt-get install -y git zlib1g-dev build-essential curl libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev micro libmariadb-dev-compat libmariadb-dev mariadb-server mariadb-client-core libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth xvfb libbz2-dev
     ```
 === "Arch"
     ```shell
