@@ -34,9 +34,3 @@ homo
 ```bash
 wlprod
 ```
-
-##
-> **Whitelabel  Homologação**: Basta executar "wlhomo" no terminal
-```bash
-wlhomo
-```
