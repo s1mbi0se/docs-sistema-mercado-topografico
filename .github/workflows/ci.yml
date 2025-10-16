@@ -51,6 +51,7 @@ env:
   FACEBOOK_PASS: ${{ secrets.FACEBOOK_PASS }}
   OPEN_AI_PASS: ${{ secrets.OPEN_AI_PASS }}
   SENDGRID_PASS: ${{ secrets.SENDGRID_PASS }}
+  ACTIVATION_CODE_RUBYMINE: ${{ secrets.ACTIVATION_CODE_RUBYMINE }}
 
 jobs:
   deploy:
