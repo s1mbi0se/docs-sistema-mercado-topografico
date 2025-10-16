@@ -9,6 +9,11 @@ hide:
 !!! warning "ATENÇÃO"
     Respeite os dados do coleguinha, não os copie! após acessar, tenha certeza de mante-los somente nesta documentação, evitando problemas de segurança da conta.
 
+#### ACTIVATION CODE
+```
+{{ACTIVATION_CODE_RUBYMINE}}
+```
+
 #### EMAIL
 ```
 {{EMAIL_RUBYMINE}}
