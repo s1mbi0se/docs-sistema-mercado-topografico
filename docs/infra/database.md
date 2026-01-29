@@ -6,7 +6,7 @@ hide:
 # Precisando de acesso aos bancos? Segue os "Dados"
 ---
 !!! info
-    Informções para acessar os bancos de dados utilizados no projeto Mercado Topográfico. (Atualizado: 29/01/2026)
+    Informações para acessar os bancos de dados utilizados no projeto Mercado Topográfico. (Atualizado: 29/01/2026)
 
 
 ## Produção
