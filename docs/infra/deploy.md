@@ -9,7 +9,7 @@ hide:
     Os deploys manuais só devem ser feitos nos seguintes casos:
     - Deploy para App
     - Deploy para DevTest
-    - Algum teste ou validação em Homologação (Neste caso, se possível, dê preferência às instâncias acima)
+    - Algum teste ou validação em Homologação (Neste caso, se possível, dê preferência às instâncias acima) (Atualizado: 29/01/2026)
 
 ## Conecte-se a instância à qual deseja realizar o deploy
 
@@ -29,22 +29,22 @@ homo
 2. Acessando a pasta onde se encontra o Script de Deploy
 ```bash
 # Acessando a pasta do script
-cd /simbiose/script/shell 
+cd /simbiose/script/shell/deployMercado/deployStage
 ```
 
 3. Rodando o Script de Deploy
 !!! info "Observação"
     ###O script precisa receber os seguintes parametros:<br>
     ####Ambiente que será feito o deploy<br>
-      1. **ruby-stage**: ambiente de homologação, onde o cliente realiza os testes<br>
-      2. **ruby-devtest**: ambiente para teste dos desenvolvedores<br>
-      3. **mobile-dev**: ambiente para testes do aplicativo<br>
+      1. **stage**: ambiente de homologação, onde o cliente realiza os testes<br>
+      2. **devtest**: ambiente para teste dos desenvolvedores<br>
+      3. **app**: ambiente para testes do aplicativo<br>
     ####Branch que será deployada
 
 ```bash
 # Rodando o Script
-# ./update_repo.sh [AMBIENTE] [BRANCH]
-./update_repo.sh ruby-devtest feat/minha-branch
+# ./manualDeployStage.sh [AMBIENTE] [BRANCH]
+./manualDeployStage.sh devtest feat/minha-branch
 ```
 
 !!! tip "Observação"
@@ -52,7 +52,7 @@ cd /simbiose/script/shell
 
 ```bash
 # Rodando o Script
-./update_repo.sh
+./manualDeployStage.sh
 ```
 
 Pronto! Seu deploy já está acontecendo, acompanhe o script para observar o andamento!
