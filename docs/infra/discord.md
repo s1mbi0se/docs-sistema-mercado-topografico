@@ -8,13 +8,21 @@ hide:
 ## Use um dos comandos abaixo:
 
 **!mt-presentation** para gerar a apresentação da sprint review
+<br>
 **!mt-estimate** para obter as estimativas da sprint atual
+<br>
 **!mt-verify** para obter o status das instâncias do Mercado Topografico
+<br>
 **!mt-prod** para deploy em produção
+<br>
 **!mt-whitelabel** para deploy em whitelabel
+<br>
 **!mt-homo** para deploy em homologação
+<br>
 **!mt-restartp** para restart em produção
+<br>
 **!mt-restarth** para restart em homologação
+<br>
 **!mt-remove** para remover as chaves de acesso
 
 !!!danger "ATENÇÃO"
